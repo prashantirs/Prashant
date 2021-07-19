@@ -1,0 +1,336 @@
+#title {
+  background-image: -webkit-linear-gradient(0deg, #4A1C40 0%, #962D2D 100%);
+  font-family: "Montserrat-black";
+}
+
+.top-h1 {
+  font-family: "Montserrat", sans-serif;
+
+  font-size: 3.5rem;
+  color: cornsilk;
+  line-height: 1.5;
+  font-weight: bold;
+}
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-collapse {
+  margin-bottom: 2rem;
+}
+.navbar-brand {
+  width: 10rem;
+  height: 4rem;
+  font-weight: bolder;
+  margin-bottom: 1rem;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.brand-prashant {
+  font-size: 2rem;
+
+  margin-left: 4px;
+  color: #fff;
+  background-color: #000;
+}
+.nav-item {
+  padding: 0 18px;
+}
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+.title-prashant-image {
+  width: 30%;
+  margin-top: 2.5%;
+  margin-left: 10%;
+  transform: rotate(0deg);
+  position: absolute;
+}
+#features {
+  padding: 7% 15%;
+  position: relative;
+  background-color: #fff;
+  z-index: 1;
+}
+
+.feature-box {
+  text-align: center;
+  padding: 5%;
+}
+h3 {
+  font-family: "Montserrat", sans-serif;
+}
+
+p {
+  color: #8f8f8f;
+  margin-bottom: 0rem;
+}
+
+.icon {
+  color: #962D2D;
+  margin-bottom: 1.5rem;
+}
+
+.icon:hover {
+  color: #744141;
+}
+
+#skills {
+  background-image: -webkit-linear-gradient(0deg, #4A1C40 0%, #962D2D 100%);
+  color: #fff;
+  margin-bottom: 0;
+}
+.h2-skills {
+  margin: 0;
+  padding: 4rem 0;
+}
+
+#sliding-skill {
+  background-image: -webkit-linear-gradient(0deg, #4A1C40 0%, #962D2D 100%);
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  height: 25rem;
+  color: #fff;
+}
+
+h2 {
+  padding: 1rem 1.5rem;
+  margin: 1rem;
+}
+
+
+
+.carousel-item {
+  padding: 1% 15%;
+}
+
+#project {
+  padding: 100px;
+}
+
+.card {
+  text-align: center;
+}
+
+.project-column {
+  padding: 3% 2%;
+}
+
+.h2-project {
+  margin: 0;
+  padding: 0;
+}
+
+.card-body-gif {
+  width: 20rem;
+  height: 16rem;
+}
+
+
+
+#education {
+  background-image: -webkit-linear-gradient(0deg, #4A1C40 0%, #962D2D 100%);
+  color: #fff;
+  padding: 7% 15%;
+  text-align: center;
+  font-size: larger;
+ 
+  
+}
+
+.education-li{
+    list-style-type: none;
+}
+
+.h3-footer {
+  width: 100%;
+  font-size: 3rem;
+}
+
+#footer {
+  text-align: center;
+  padding: 7% 15%;
+  background-color: #000;
+}
+
+.footer-icon {
+  margin: 2rem 1rem;
+  transition: all 350ms linear 0s;
+}
+
+.footer-icon:hover {
+  color: #380a64;
+}
+
+.a-footer {
+  color: #cccccc;
+}
+
+.email-location-link {
+  text-decoration: none;
+  color: #777777;
+}
+
+.contact-name {
+  position: relative;
+}
+.contact-email {
+  position: relative;
+  left: 13.3rem;
+}
+.input-contact-name {
+  position: relative;
+  top: 0.6rem;
+  border-radius: 0.313rem;
+  border-color: aquamarine;
+}
+
+.input-contact-email {
+  position: relative;
+  top: 0.6rem;
+  left: 5rem;
+  border-radius:  0.313rem;
+  width: 18.75rem;
+  border-color: aquamarine;
+}
+
+.input-contact-subject {
+  position: relative;
+  top: 0.6rem;
+  width: 35.625rem;
+  border-radius: 0.25rem;
+  border-color: aqua;
+}
+
+.input-contact-textarea {
+  position: relative;
+  top: 0.6rem;
+}
+
+.form-submit-button {
+  position: relative;
+  top: 0.6rem;
+  left: 15rem;
+  width: 10rem;
+}
+
+
+.education-img-college{
+    position: relative;
+    right: 6rem;
+    width: 150px;
+    height: 100px;
+}
+
+.education-img-school{
+   width: 100px;
+   height: 100px;
+}
+
+.college-name{
+    position: relative;
+    right: 4.5rem;
+}
+.contact-heading{
+    margin: 1rem 0;
+    padding-left: 1rem;
+}
+
+@media (max-width:1028px) {
+    .title-prashant-image {
+      position: static;
+      transform: rotate(0);
+      width: 60%;
+      height: 80%;
+      margin-top: 3rem;
+      margin-bottom: 1rem;
+    }
+    #title {
+      text-align: center;
+    }
+    .brand-prashant {
+      font-size: 2rem;
+      margin-top: 1rem;
+      margin-left: -15px;
+      color: #fff;
+      background-color: #000;
+    }
+    /* .email-location-display{
+        display: inline;
+    } */
+    #project {
+      padding: 40px;
+    }
+    .card-body-gif {
+      width: 13rem;
+      height: 11rem;
+    }
+
+    .education-img-college{
+      position: relative;
+      right: 0;
+      
+  }
+  
+  .college-name{
+      position: relative;
+      right: 0rem;
+  }
+
+    #Contact{
+        text-align: center;
+    }
+    .contact-name {
+        position: relative;
+        right: 35%;
+      }
+      .input-contact-name {
+        width: 8rem;
+        position: relative;
+        top: 0.6rem;
+        right: 9%;
+        border-radius: 5px;
+        border-color: aquamarine;
+      }
+      .contact-email {
+        position: relative;
+        left: 10%;
+      }
+    .input-contact-email {
+      position: relative;
+      top: 0.6rem;
+      left: 9%;
+      border-radius: 5px;
+      width: 10rem;
+      border-color: aquamarine;
+    }
+    .input-contact-subject{
+        width: 90%;
+        height: 2rem;
+        
+    }
+    .input-contact-textarea {
+       width: 20rem;
+       height: 15rem;
+      }
+      
+      .form-submit-button {
+        position: relative;
+        top: 0.6rem;
+        left: 0;
+        margin-bottom: 1rem;
+        width: 7rem;
+      
+      }
+      .google-map{
+        width:85% ;
+        height: 450px;
+        margin: 1rem 0;
+        
+      }
+      
+  }
