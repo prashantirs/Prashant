@@ -2,6 +2,12 @@
   background-image: -webkit-linear-gradient(0deg, #4A1C40 0%, #962D2D 100%);
   font-family: "Montserrat-black";
 }
+#btn-back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: none;
+}
 
 .top-h1 {
   font-family: "Montserrat", sans-serif;
@@ -244,7 +250,7 @@ h2 {
     .title-prashant-image {
       position: static;
       transform: rotate(0);
-      width: 60%;
+      width: 80%;
       height: 80%;
       margin-top: 3rem;
       margin-bottom: 1rem;
@@ -331,6 +337,9 @@ h2 {
         height: 450px;
         margin: 1rem 0;
         
+      }
+   #btn-back-to-top {
+        visibility: hidden;
       }
       
   }
