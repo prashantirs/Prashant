@@ -3,11 +3,11 @@ $("#jquery-btn1").on("click",function(){
 })
 
 $("#jquery-btn2").on("click",function(){
-    window.location = "" ;
+    window.location = "https://github.com/prashantirs/Know_Weather" ;
 })
 
 $("#jquery-btn3").on("click",function(){
-    window.location = "" ;
+    window.location = "https://github.com/prashantirs/Daily_News" ;
 })
 
 //Get the button
