@@ -256,8 +256,19 @@ h2 {
   #education{
     padding-right: 6rem;
   }
+  .h3-footer{
+    position:relative;
+    right: 1.5rem;
+  }
   .education-school{
-    
+    position:relative;
+    right: 1.8rem;
+    top: 0.5rem;
+    width: 9rem;
+  }
+  .education-img-school{
+    position: relative;
+    right: 0.2rem;
   }
   .cv{
    margin-top: 1rem;
