@@ -253,6 +253,12 @@ h2 {
 }
 
 @media (max-width:1028px) {
+  #education{
+    padding-right: 6rem;
+  }
+  .education-school{
+    
+  }
   .cv{
    margin-top: 1rem;
   }
