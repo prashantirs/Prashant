@@ -1,13 +1,31 @@
 $("#jquery-btn1").on("click",function(){
-    window.location = "https://prashantirs.github.io/Payment-Gateway-Integration_Project/" ;
+    // window.location = "https://prashantirs.github.io/Payment-Gateway-Integration_Project/" ;
+    URL = "https://prashantirs.github.io/Payment-Gateway-Integration_Project/" ;
+    window.open(URL, '_blank');
 })
 
 $("#jquery-btn2").on("click",function(){
-    window.location = "https://github.com/prashantirs/Know_Weather" ;
+    // window.location = "https://github.com/prashantirs/Know_Weather" ;
+    URL = "https://github.com/prashantirs/Know_Weather" ;
+    window.open(URL, '_blank');
 })
 
 $("#jquery-btn3").on("click",function(){
-    window.location = "https://github.com/prashantirs/Daily_News" ;
+    // window.location = "https://github.com/prashantirs/Daily_News" ;
+    URL = "https://github.com/prashantirs/Daily_News" ;
+    window.open(URL, '_blank');
+})
+
+$("#jquery-btn4").on("click",function(){
+    // window.location = "http://social-connect-prashant.herokuapp.com/" ;
+    URL = "http://social-connect-prashant.herokuapp.com/" ;
+    window.open(URL, '_blank');
+})
+
+$("#jquery-btn5").on("click",function(){
+    // window.location = "https://github.com/prashantirs/Daily_News" ;
+    URL = "https://github.com/prashantirs/iNotebook" ;
+    window.open(URL, '_blank');
 })
 
 //Get the button
