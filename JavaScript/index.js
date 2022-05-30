@@ -6,7 +6,7 @@ $("#jquery-btn1").on("click",function(){
 
 $("#jquery-btn2").on("click",function(){
     // window.location = "https://github.com/prashantirs/Know_Weather" ;
-    URL = "https://github.com/prashantirs/Know_Weather" ;
+    URL = "https://know-weather-9821f.web.app/" ;
     window.open(URL, '_blank');
 })
 
