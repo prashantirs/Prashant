@@ -63,5 +63,6 @@ function backToTop() {
 
 //Footer Year add
 
-let year = new Date;
-document.getElementById("year").textContent = year.getFullYear();
+const getYear = new Date;
+const year =  getYear.getFullYear();
+document.getElementById('year').innerText = year;
