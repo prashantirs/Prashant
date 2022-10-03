@@ -21,11 +21,11 @@ $("#jquery-btn4").on("click",function(){
     URL = "https://calories-counter-69552.web.app/" ;
     window.open(URL, '_blank');
 })
-// $("#jquery-btn4").on("click",function(){
-//     // window.location = "http://social-connect-prashant.herokuapp.com/" ;
-//     URL = "http://social-connect-prashant.herokuapp.com/" ;
-//     window.open(URL, '_blank');
-// })
+$("#jquery-btn6").on("click",function(){
+    // window.location = "http://social-connect-prashant.herokuapp.com/" ;
+    URL = "http://social-connect-prashant.herokuapp.com/" ;
+    window.open(URL, '_blank');
+})
 
 $("#jquery-btn5").on("click",function(){
     // window.location = "https://github.com/prashantirs/Daily_News" ;
