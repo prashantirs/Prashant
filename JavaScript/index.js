@@ -33,6 +33,12 @@ $("#jquery-btn5").on("click",function(){
     window.open(URL, '_blank');
 })
 
+$("#jquery-btn7").on("click",function(){
+  // window.location = "http://social-connect-prashant.herokuapp.com/" ;
+  URL = "https://clone-b3445.web.app/" ;
+  window.open(URL, '_blank');
+})
+
 //Get the button
 let mybutton = document.getElementById("btn-back-to-top");
 
